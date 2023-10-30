@@ -1,0 +1,127 @@
+@font-face {
+    font-family: "TESLA";
+    src: url("Fonts/TESLA.ttf");
+}
+
+@font-face {
+    font-family: "honeyscript";
+    src: url("Fonts/HoneyScript-Light.ttf");
+}
+
+@font-face {
+    font-family: "barlow";
+    src: url("Fonts/BarlowCondensed-Light.ttf");
+}
+
+@font-face {
+    font-family: "roboto";
+    src: url("Fonts/Roboto-Light.ttf");
+}
+
+.workspace {
+    background-image: url("resources/background.gif");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.LOGO {
+    background-image: url("resources/LOGO.gif");
+    height: 150px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.main-title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    letter-spacing: 2px;
+    font-weight: bolder;
+    color: rgb(12, 12, 12);
+    text-shadow: 2px 2px 5px red;
+}
+
+.title-box {
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+}
+
+.newtech {
+    color: rgb(211, 212, 213);
+    font-family: "TESLA";
+    font-weight: lighter;
+    font-size: 35px;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+.cover-pic {
+    background-image: url("resources/cover\ 2.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.index-buttons1 {
+    font-family: "barlow";
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.index-buttons2 {
+    font-family: "roboto";
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.header-topic {
+    font-family: "roboto";
+    font-weight: bolder;
+    color: rgb(250, 246, 246);
+    text-shadow: 4px 2px 10px #ae8d05;
+}
+
+.home-background {
+    background-color: rgb(111, 141, 182);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.card-title {
+    color: #cb9708;
+    font-family: "barlow";
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.hidden1 {
+    height: 100px;
+}
+
+.hidden2 {
+    height: 60px;
+}
+
+.hidden3 {
+    height: 120px;
+}
+
+.signin-background {
+    background-color: rgb(65, 69, 75);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.signup-continue-header {
+    font-family: "honey";
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    color: brown;
+}
+
+.add-product-body {
+    background-color: rgb(189, 192, 195);
+}
